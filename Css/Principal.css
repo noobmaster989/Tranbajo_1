@@ -1,0 +1,15 @@
+table th{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+thead{
+    background-color: #000;
+    color: #fff;
+}
+tbody{
+    text-align: center;
+}
+table tbody tr:nth-child(even)/*even -odd*/
+{
+    background-color: #c6c6c6;
+}
